@@ -1,4 +1,6 @@
 {
-    "name" : "Beza",
-    "id" : 1
+    "School" : "Boston University",
+    "Major" : "Computer Science",
+    "Type" : "MS",
+    "Year" : 2023
 }
