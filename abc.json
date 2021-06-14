@@ -1,6 +1,28 @@
 {
-    "School" : "Boston University",
-    "Major" : "Computer Science",
-    "Type" : "MS",
-    "Year" : 2023
+"myCollegeDegrees": [
+    {
+        "CollegeName": {
+        "name": "Addis Ababa University",
+        "Major": "Foreign language and Literature",
+        "Year Attended": "2007",
+        "Graduation": "2010"
+    }
+},
+    {
+        "CollegeName": {
+        "name": "Addis Ababa University",
+        "programe major": " Foreign Language and Literature",
+        "Type": "BA",
+        "year": 2016
+        }
+    },
+    {
+    "CollegeName": { 
+        "name": "Boston University",
+        "programe major": "Software Developement",
+        "Type": "MSC",
+        "year": 2021
+    }
+}
+]
 }
