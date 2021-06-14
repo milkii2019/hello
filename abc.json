@@ -11,17 +11,17 @@
     {
         "CollegeName": {
         "name": "Addis Ababa University",
-        "programe major": " Foreign Language and Literature",
-        "Type": "BA",
-        "year": 2016
+        "Major": "Foreign language and Literature",
+        "YearAttended": "2007",
+        "Graduation": "2010"
         }
     },
     {
     "CollegeName": { 
         "name": "Boston University",
-        "programe major": "Software Developement",
-        "Type": "MSC",
-        "year": 2021
+        "Major": "Foreign language and Literature",
+        "YearAttended": "2007",
+        "Graduation": "2010"
     }
 }
 ]
