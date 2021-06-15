@@ -17,10 +17,10 @@
             }
         },
         {
-        "CollegeName": { 
-            "name": "Boston University",
+            "Degree": { 
+            "School": "Boston University",
             "Major": "Software development",
-            "type": "MS",
+            "Type": "MS",
             "Yearconferred": "2023"
         }
     }
