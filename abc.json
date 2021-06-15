@@ -1,27 +1,24 @@
 {
-    "myCollegeDegrees": [
+    "customersList": [
         {
-            "CollegeName": {
-            "name": "Addis Ababa University",
-            "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
-        }
+            "customers": {
+            "Customer Id": "1",
+            "Name": "john john",
+            "Country": "us"
+            } 
     },
         {
-            "CollegeName": {
-            "name": "Addis Ababa University",
-            "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
+            "customers": {
+                "Customer Id": "2",
+            "Name": "mame mame",
+            "Country": "us"
             }
         },
         {
-        "CollegeName": { 
-            "name": "Boston University",
-            "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
+            "customers": {
+                "Customer Id": "3",
+                "Name": "beza beza",
+                "Country": "us"
         }
     }
     ]
