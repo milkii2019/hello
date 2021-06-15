@@ -1,27 +1,27 @@
 {
     "myCollegeDegrees": [
         {
-            "CollegeName": {
-            "name": "Addis Ababa University",
+            "Degree": {
+            "School": "Addis Ababa University",
             "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
+            "Type": "BA",
+            "Yearconferred": "2010"
         }
     },
         {
-            "CollegeName": {
-            "name": "Addis Ababa University",
-            "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
+            "Degree": {
+                "School": "New generation University",
+                "Major": "Computer science",
+                "Type": "BS",
+                "Yearconferred": "2010"
             }
         },
         {
         "CollegeName": { 
             "name": "Boston University",
-            "Major": "Foreign language and Literature",
-            "YearAttended": "2007",
-            "Graduation": "2010"
+            "Major": "Software development",
+            "type": "MS",
+            "Yearconferred": "2023"
         }
     }
     ]
