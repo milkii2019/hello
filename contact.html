@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://use.fontawesome.com/9db1603540.js"></script>
+  <link rel="stylesheet" href="printstyle.css" type="text/css" media="print">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script src="javascript/project.js"></script>
+  <title>Contact</title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+
+      <nav>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+
+  <form name="myForm" action="mailto:bizabkl@gmail.com" method="POST" onsubmit="return(checkInputs());">
+    <h3>Contact Me</h3>
+    <div class="row">
+      <label>Name</label>
+      <input type="text" name="Name" id="Name" placeholder="Enter your name" required>
+      <div class="error" id="nameErr"></div>
+    </div>
+    <div class="row">
+      <label>Email</label>
+      <input type="text" name="Email" id="Email" placeholder="Enter your email" required>
+      <div class="error" id="emailErr"></div>
+    </div>
+
+    <div class="row">
+      <label>Subject</label>
+      <input type="text" name="Subject" id="Subject" placeholder="Enter the subject" required>
+      <div class="error" id="subjErr"></div>
+    </div>
+    <div class="row">
+      <textarea rows="5" cols="38" name="Message" id="Message" placeholder="Type your message here..."></textarea>
+      <div class="error" id="msgErr"></div>
+    </div>
+    <div class="row">
+      <input type="submit" id="submit" value="Submit">
+
+    </div>
+
+  </form>
+  <div class="elem">
+    <div class="ele">
+      <address>
+        <br />
+        <br />
+        9222 Amberton pkwy<br />
+        Dallas,Texas<br />
+        Zip code 75243<br />
+        Tel: 2246598902
+        <br />
+      </address>
+    </div>
+  </div>
+
+  <iframe style="width:100%;" src="https://maps.google.com/maps?q=32.77,-96.79&output=svembed"></iframe>
+
+  <footer>
+    <div class="flex">
+
+      <ul>
+        <li>
+          <a class="btn btn-social-icon btn-instagram" href="http://www.instagram.com/biza.bekele"><i
+              class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/biza.bekele"><i
+              class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://www.twitter.com/biza.bekele"><i
+              class="fa fa-twitter"></i></a>
+          <a class="btn btn-social-icon btn-google" href="http://www.youtube.com/biza.bekele"><i
+              class="fa fa-youtube"></i></a>
+
+        </li>
+      </ul>
+      <small>&copy; Author:Bizuayehu Debre, 25 May 2021 @ Copy rights</small>
+    </div>
+  </footer>
+</body>
+
+</html>

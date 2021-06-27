@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="printstyle.css" type="text/css" media="print">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="javascript/project.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  
+  <title>Gallery</title>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+
+      <nav>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="Gallery">
+      <h1>Gallery</h1>
+      <h2>Exploring The World</h2>
+      <!-- <div class="container">-->
+      <p> <em>I like to explore the world.
+          Traveling in to different parts of the world I have enjoyed traditions, foods, and hospitability
+          of different nations.
+          Asia is one of my favorite place. The following are some of the places I have visited.
+        </em> </p>
+      <div class="row">
+        <div class="column">
+          <img src="Images/patong-beach-phuket.png" width="400" height="200" onclick="openGallery();presentSlide(1)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="patong-beach-phuket">
+          <p>Patong is a beach resort town on the west coast of Phuket Island. </p>
+        </div>
+        <div class="column">
+          <img src="Images/shamianisland.png" width="400" height="200" onclick="openGallery();presentSlide(2)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="Shamian Island Gouanzhou,china">
+          <p>Shamian is a sandbank island in the Liwan District, China. </p>
+        </div>
+        <div class="column">
+          <img src="Images/mukera1.jpg" width="400" height="200" onclick="openGallery();presentSlide(3)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="Pyataya Beach Thailand">
+          <p>Pattaya is a City on Thailand’s Eastern Gulf Coast known for its Beaches.</p>
+        </div>
+        <div class="column">
+          <img src="Images/mukera2.jpeg" width="400" height="200" onclick="openGallery();presentSlide(4)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="Cantoon Tower Guanzhou China">
+          <p>CantonTower,is a 604-meter-tall multipurpose observation tower in the Haizhu District of Guangzhou</p>
+        </div>
+        <div class="column">
+          <img src="Images/pearlriver.jpeg" width="400" height="200" onclick="openGallery();presentSlide(5)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="Pearl River Gouanzhou China">
+          <p>Pearl River is Also known as the Guangdong, and the third largest river in China.</p>
+        </div>
+        <div class="column">
+          <img src="Images/mukera3.jpeg" width="400" height="200" onclick="openGallery();presentSlide(6)"
+            onMouseOver="display_blackwhite(this)" onMouseOut="display_colorphoto(this)" class="hover-shadow cursor"
+            alt="Asiatique River Font,Thailand">
+          <p>Asiatique River Font is one of the most popular night markets in Bangkok.</p>
+        </div>
+      </div>
+
+      <div id="myGallery" class="modal">
+        <span class="close cursor" onclick="closeGallery()">&times;</span>
+        <div class="modal-content"></div>
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="Images/patong-beach-phuket.png" style="width:100%" alt="patong-beach-phuket">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="Images/shamianisland.png" style="width:100%" alt="Shamian Island Gouanzhou,china">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="Images/mukera1.jpg" style="width:100%" alt="Pyataya Beach Thailand">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="Images/mukera2.jpeg" style="width:100%" alt="Cantoon Tower Guanzhou China">
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="Images/pearlriver.jpeg" style="width:100%" alt="Pearl River Gouanzhou China">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="Images/mukera3.jpeg" style="width:100%" alt="Asiatique River Font,Thailand">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="flex">
+
+      <ul>
+        <li>
+          <a class="btn btn-social-icon btn-instagram" href="http://www.instagram.com/biza.bekele"><i
+              class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/biza.bekele"><i
+              class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://www.twitter.com/biza.bekele"><i
+              class="fa fa-twitter"></i></a>
+          <a class="btn btn-social-icon btn-google" href="http://www.youtube.com/biza.bekele"><i
+              class="fa fa-youtube"></i></a>
+
+        </li>
+      </ul>
+      <small>&copy; Author:Bizuayehu Debre Date:25 May 2021 @ Copy rights</small>
+    </div>
+  </footer>
+</body>
+
+</html>
